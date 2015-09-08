@@ -26,7 +26,9 @@ li {
 	color: white;
 	display: inline;
 	padding: 5px;
-}
+	list-style-position: left;
+	list-style-type: squre;
+	}
 
 
 
@@ -48,6 +50,8 @@ a {
 
 
 
+
+
 h2 {
 	color:white;
 }
@@ -64,4 +68,10 @@ p {
 	color:white;
 }
 
-Í
+.gray-text-section {
+	color:lightgray;
+}
+
+
+}
+
