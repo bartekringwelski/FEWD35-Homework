@@ -1,0 +1,71 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	line-height: 1em;
+}
+
+
+h1 {
+	font-size:48px;
+	color: #C00;
+	display: inline-block;
+}
+
+
+h2 {
+	font-size: 24pt;
+	display: inline-block;
+	color: #AAAAAA;
+}
+
+h3 {
+	font-size:24pt;
+	color: #AAAAAA;
+}
+
+nav {
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display:inline-block;
+}	
+
+nav li {
+	float: left;
+}
+
+header nav a{
+	color:#fff;
+	display: block;
+	background-color: #000000;
+	text-decoration: none;
+	font-size: 19pt;
+	padding: 10px 10px 10px 10px;
+	margin:  10px 26px;
+
+}
+
+a {
+	color:white;
+	background-color: black;
+}
+
+.left {
+	float:left;
+	width: 60%;
+}
+
+.right {
+	float:right;
+	width: 40%;
+}
+
+p {
+	font-style: lato;
+}
+

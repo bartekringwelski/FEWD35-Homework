@@ -19,15 +19,21 @@ h1 {
 
 ul {
 	text-align: center;
+	display:inline;
+}
+
+.ul2 {}
+	list-style-position: left;
+	list-style-type: square;
+
 }
 
 
 li {
 	color: white;
-	display: inline;
+	display: left;
 	padding: 5px;
-	list-style-position: left;
-	list-style-type: squre;
+
 	}
 
 
@@ -72,6 +78,4 @@ p {
 	color:lightgray;
 }
 
-
-}
 
