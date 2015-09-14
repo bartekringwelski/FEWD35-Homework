@@ -9,9 +9,15 @@ body {
 	width: 90%;
 	}
 
+
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
 	line-height: 1em;
+}
+
+p {
+	line-height: 2;
+	color:gray;
 }
 
 
@@ -32,6 +38,21 @@ h3 {
 	font-size:24pt;
 	color: black;
 }
+
+h4 {
+	font-size: 16pt;
+	font-weight: bold;
+	color:gray;
+}
+
+
+h5 {
+	color:red;
+	font-size: 1.26em;
+	float:right;
+	font-weight: bold;
+}
+
 
 a {
 	color:white;
@@ -61,5 +82,29 @@ a {
 	width: 30%;
 	padding-right: 3%;
 }
+
+.first-letter {
+	font-size: 4em;
+	float:left;
+	color:gray;
+	margin-right: 10px;
+}
+
+.ad {
+	background-color: #CCC;
+	height: 250px;
+	width: 95%;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: "MS Serif", "New York", serif;
+	font-size: 36pt;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 125px;
+}
+
+}
+
 
 
