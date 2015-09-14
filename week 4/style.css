@@ -2,7 +2,12 @@
 
 body {
 	font-family: Lato, "Trebuchet MS", Arial, Helvetica, sans-serif;
-}
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	width: 90%;
+	}
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
@@ -21,12 +26,11 @@ h2 {
 	font-size: 24pt;
 	display: inline-block;
 	color: #AAAAAA;
-	margin-left: 10px;
 }
 
 h3 {
 	font-size:24pt;
-	color: #AAAAAA;
+	color: black;
 }
 
 a {
@@ -36,7 +40,7 @@ a {
 
 .column {
 	float:left;
-	width:16.5%;
+	width:15%;
 	background-color: black;
 	margin:1px;
 	padding-top: 15px;
@@ -45,8 +49,7 @@ a {
 	text-align: center;
 	color: white;
 
-
-
+}
 
 .left {
 	float:left;
@@ -59,7 +62,4 @@ a {
 	padding-right: 3%;
 }
 
-p {
-	font-style: lato;
-}
 
