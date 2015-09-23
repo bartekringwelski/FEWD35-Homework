@@ -1,0 +1,44 @@
+	#selected-plays {
+		background-color: lightgray;
+	}
+
+	#container h2:nth-child(3) {
+		font-size: 2em;
+		margin-bottom:10px;
+	}
+
+	#container h2:nth-child(5) {
+		font-size: 2em;
+		margin-bottom:10px;
+	}
+
+
+	td:nth-child(3) {
+		background-color:gray;
+	}
+
+	#selected-plays li > ul > li{
+		color:red;
+	}
+
+
+	a {
+		text-decoration: none;
+		color:red;
+	}
+
+	a[href="hamlet.pdf"] {
+		color:blue;
+		font-size: 2em;
+	}
+
+	a[href="/asyoulikeit/"] {
+		color:orange;
+	}
+	
+
+
+	tr:nth-child(odd){
+		background-color: lightgray;
+	}
+

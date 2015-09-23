@@ -37,6 +37,7 @@ h2 {
 h3 {
 	font-size:24pt;
 	color: black;
+	margin-top:-15px;
 }
 
 h4 {
@@ -49,7 +50,6 @@ h4 {
 h5 {
 	color:red;
 	font-size: 1.26em;
-	float:right;
 	font-weight: bold;
 }
 
@@ -57,6 +57,7 @@ h5 {
 a {
 	color:white;
 	text-decoration: none;
+	width:100px;
 }
 
 .column {
@@ -90,6 +91,7 @@ a {
 	margin-right: 10px;
 }
 
+/*
 .ad {
 	background-color: #CCC;
 	height: 250px;
@@ -104,7 +106,16 @@ a {
 	padding-top: 125px;
 }
 
+
+
+hr {
+	clear:both;
+	
 }
+*/
 
 
+It does seem that the person is part of Ops, Investor, Treasury or Risk given their references to feedback from agents, feeling like a number, and concern about recent departures (maybe Darin or Chaomei).
+
+Bartek
 
