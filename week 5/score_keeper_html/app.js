@@ -34,17 +34,18 @@ document
 });
 
 
-
-
-function getScore() {
-    var i = parseInt(document
+document
+	.getElementById("submit-custom-score")
+	.addEventListener("click",
+		function () {
+		     i = parseInt(document
     	.getElementById("custom-score")
     	.value);
 
     document
     .getElementById("score")
     .innerHTML = i;
-}
+});
 
 
 
