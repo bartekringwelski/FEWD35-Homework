@@ -1,5 +1,5 @@
 
- var i = 0;
+var i = 0;
 
 
 document
@@ -18,18 +18,15 @@ document
 	.addEventListener("click", 
 		function () {
 
-		if (i>0) {
-			i+=-5;
-document
-		.getElementById("score")
-		.innerHTML = i;
+		if (i === 0) {
+			return false;
 		}
 		else {
-
-	document
-		.getElementById("score")
-		.innerHTML = i;
-	}
+			i-=5;
+			document
+				.getElementById("score")
+				.innerHTML = i;
+		}
 
 });
 
