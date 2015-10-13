@@ -1,0 +1,1629 @@
+    html {
+        color: #000;
+        background: #fff
+    }
+    body,
+    div,
+    dl,
+    dt,
+    dd,
+    ul,
+    ol,
+    li,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    pre,
+    code,
+    form,
+    fieldset,
+    legend,
+    input,
+    textarea,
+    p,
+    blockquote,
+    th,
+    td {
+        margin: 0;
+        padding: 0
+    }
+    table {
+        border-collapse: collapse;
+        border-spacing: 0
+    }
+    fieldset,
+    img {
+        border: 0
+    }
+    address,
+    caption,
+    cite,
+    code,
+    dfn,
+    em,
+    strong,
+    th,
+    var {
+        font-style: normal;
+        font-weight: normal
+    }
+    li {
+        list-style: none
+    }
+    caption,
+    th {
+        text-align: left
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size: 100%;
+        font-weight: normal
+    }
+    q:before,
+    q:after {
+        content: ''
+    }
+    abbr,
+    acronym {
+        border: 0;
+        font-variant: normal
+    }
+    sup {
+        vertical-align: text-top
+    }
+    sub {
+        vertical-align: text-bottom
+    }
+    input,
+    textarea,
+    select {
+        font-family: inherit;
+        font-size: inherit;
+        font-weight: inherit
+    }
+    input,
+    textarea,
+    select {
+        *font-size: 100%
+    }
+    legend {
+        color: #000
+    }
+    del,
+    ins {
+        text-decoration: none
+    }
+    body {
+        min-width: 970px;
+        font: 13px/1.231 helvetica, arial, clean, sans-serif;
+        *font-size: small;
+        *font: x-small
+    }
+    select,
+    input,
+    textarea {
+        font: 99% helvetica, arial, clean, sans-serif
+    }
+    table {
+        font-size: inherit;
+        font: 100%
+    }
+    pre,
+    code,
+    kbd,
+    samp,
+    tt {
+        font-family: monospace;
+        *font-size: 108%;
+        line-height: 100%
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong {
+        font-weight: bold
+    }
+    abbr,
+    acronym {
+        border-bottom: 1px dotted #000;
+        cursor: help
+    }
+    em {
+        font-style: italic
+    }
+    strong {
+        font-weight: bold
+    }
+    del {
+        text-decoration: line-through
+    }
+    input:focus,
+    select:focus,
+    textarea:focus {
+        outline: 0
+    }
+    input[type='checkbox']:focus,
+    input[type='radio']:focus,
+    input[type='submit']:focus {
+        outline: dotted 1px;
+        outline: auto -webkit-focus-ring-color;
+        outline-color: #206dd6
+    }
+    .master_invest input[type='checkbox']:focus,
+    .master_invest input[type='radio']:focus,
+    .master_invest input[type='submit']:focus {
+        outline: dotted 1px;
+        outline: auto -webkit-focus-ring-color;
+        outline-color: #206dd6
+    }
+    .master_borrow input[type='checkbox']:focus,
+    .master_borrow input[type='radio']:focus,
+    .master_borrow input[type='submit']:focus {
+        outline: dotted 1px;
+        outline: auto -webkit-focus-ring-color;
+        outline-color: #5a9229
+    }
+    button:focus {
+        outline: 0
+    }
+    html {
+        color: #2e2f31;
+        background: #f1f1f1
+    }
+    a {
+        color: #206dd6;
+        text-decoration: none
+    }
+    a:focus {
+        outline: dotted 1px;
+        outline: auto -webkit-focus-ring-color;
+        outline-color: #206dd6
+    }
+    .master_invest a:focus {
+        outline: dotted 1px;
+        outline: auto -webkit-focus-ring-color;
+        outline-color: #206dd6
+    }
+    .master_borrow a:focus {
+        outline: dotted 1px;
+        outline: auto -webkit-focus-ring-color;
+        outline-color: #5a9229
+    }
+    .master_invest a {
+        color: #206dd6
+    }
+    .master_borrow a {
+        color: #5a9229
+    }
+    a:hover {
+        text-decoration: underline
+    }
+    h1 {
+        color: #0a2945;
+        font-size: 153.9%
+    }
+    h2 {
+        color: #0a2945;
+        font-size: 146.5%
+    }
+    h3 {
+        color: #0a2945;
+        font-size: 138.5%
+    }
+    .master_clearfix:after {
+        clear: both;
+        content: '.';
+        display: block;
+        visibility: hidden;
+        height: 0
+    }
+    .master_hidden,
+    .hidden {
+        display: none
+    }
+    .clear {
+        clear: both
+    }
+    #master_section-tagline {
+        display: none
+    }
+    .master_wrapper {
+        clear: both;
+        margin: 0 auto;
+        position: relative;
+        width: 970px;
+    }
+    #master_banner {
+        padding: 40px 0 9px 0;
+        position: relative;
+        background: #fff;
+        margin-bottom: -10px;
+    }
+    #master_banner.ACCOUNT {
+        background: #fff
+    }
+    #master_banner-wrapper {
+        float: left
+    }
+    #master_banner span a {
+        background: url("masterSpriteV2.png") 0 0 no-repeat;
+        display: block;
+        height: 36px;
+        left: 19px;
+        outline: 0;
+        text-indent: -9999px;
+        width: 239px;
+        float: left;
+        position: relative
+    }
+    .backpack #master_banner span a {
+        background: url("logo-lc_google.png") 0 0 no-repeat;
+        display: block;
+        height: 80px;
+        left: 25px;
+        outline: 0;
+        text-indent: -9999px;
+        width: 290px;
+        float: left;
+        position: relative
+    }
+    .master_fmenu li {
+        float: left;
+        width: auto;
+        line-height: 1.231
+    }
+    .master_fmenu a {
+        float: left;
+        width: auto
+    }
+    .master_fmenu li.first a {
+        padding-left: 0
+    }
+    #master_utilities {
+        position: absolute;
+        right: 20px;
+        top: 14px
+    }
+    #master_utilities li {
+        color: #999;
+        background: url("masterSpriteV2.png") -237px -41px transparent no-repeat scroll
+    }
+    #master_utilities li.first {
+        position: relative;
+        background-image: none
+    }
+    #master_utilities li.first+.master_help-link {
+        background: 0;
+        position: relative;
+        top: 2px;
+        right: 2px
+    }
+    #master_utilities a {
+        color: #999;
+        padding: 3px 10px 7px 10px;
+        height: 14px
+    }
+    #master_utilities span {
+        padding: 3px 10px 7px 0;
+        height: 14px
+    }
+    #master_utilities .master_help-link a {
+        padding-right: 0
+    }
+    .borrower-reg #master_utilities {
+        top: 50px
+    }
+    .borrower-reg #master_utilities li,
+    .lender-reg #master_utilities li,
+    .borrower-reg #master_utilities.signed-in li,
+    .lender-reg #master_utilities.signed-in li {
+        background: url("masterSpriteV2.png") -237px -42px transparent no-repeat scroll
+    }
+    .borrower-reg #master_utilities li.first,
+    .lender-reg #master_utilities li.first {
+        background: 0
+    }
+    .borrower-reg #master_utilities.signed-in li.first,
+    .lender-reg #master_utilities.signed-in li.first {
+        background: 0
+    }
+    .borrower-reg #master_utilities.signed-in li.first,
+    .lender-reg #master_utilities.signed-in li.first {
+        background: 0
+    }
+    #master_top-nav {
+        float: right;
+        margin: 6px 0 0 0
+    }
+    #master_top-nav li {
+        padding-left: 14px;
+        padding-right: 14px;
+        background: url("masterSpriteV2.png") -237px -35px transparent no-repeat scroll
+    }
+    #master_top-nav li.first {
+        background-image: none;
+        padding-left: 0
+    }
+    #master_top-nav a {
+        color: #231f20;
+        padding: 10px 0;
+        line-height: 116%;
+        font-size: 14px;
+        font-weight: 200
+    }
+    #master_top-nav a.active {
+        font-weight: bold;
+        padding-bottom: 2px;
+        border-bottom: 2px solid #de0000
+    }
+    #master_top-nav a:hover {
+        text-decoration: none
+    }
+    body.borrower-reg #master_top-nav,
+    body.lender-reg #master_top-nav {
+        display: none
+    }
+    #before_master_content {
+        margin-bottom: 3px
+    }
+    #master_content {
+        position: relative
+    }
+    body #master_content-mid {
+        background: #fff;
+        padding: 20px 0 0;
+        width: 970px;
+        min-height: 360px
+    }
+    body #master_tabbed_content-mid {
+        background: #fff;
+        padding: 20px 0 0;
+        width: 970px;
+        min-height: 360px
+    }
+    #master_footer {
+        color: #999;
+        padding: 30px;
+        font-size: 92.3%;
+        line-height: 1.3;
+        background: transparent;
+        margin-top: 1px;
+        position: relative
+    }
+    #master_footer a {
+        color: #999
+    }
+    .master_hmenu {
+        margin-left: 0;
+        margin-bottom: 5px
+    }
+    .master_hmenu li {
+        background: url("masterSpriteV2.png") -237px -73px transparent no-repeat scroll;
+        display: inline;
+        list-style: none;
+        padding: 0 11px 0 12px
+    }
+    .master_hmenu li.master_mobile_only {
+        display: none
+    }
+    .master_hmenu li.first {
+        background: 0;
+        padding-left: 0
+    }
+    #master_footer-contact {
+        float: left
+    }
+    #master_footer-contact .footer-logo {
+        background: url("masterSpriteV2.png") 0 -80px transparent no-repeat scroll;
+        width: 126px;
+        height: 19px
+    }
+    #master_footer-contact p {
+        padding: 6px 0 21px
+    }
+    #master_footer #master_follow {
+        float: right;
+        margin: 5px 0 22px;
+        display: inline;
+        clear: inherit
+    }
+    #master_footer #master_follow a {
+        margin-top: 20px;
+        margin-left: 15px;
+        float: left;
+        height: 30px;
+        background: url("masterSpriteV2.png") 0 0 no-repeat transparent
+    }
+    #master_footer #master_follow span {
+        float: left;
+        margin-top: 30px;
+        text-transform: uppercase;
+        margin-right: 11px
+    }
+    #master_footer #master_follow #blogImg {
+        background-position: -7px -35px;
+        width: 22px
+    }
+    #master_footer #master_follow #faceImg {
+        background-position: -45px -39px;
+        width: 12px
+    }
+    #master_footer #master_follow #twitImg {
+        background-position: -107px -38px;
+        width: 32px
+    }
+    #master_footer #master_follow #googleImg {
+        background-position: -74px -37px;
+        width: 26px
+    }
+    #footerMasterHmenu {
+        position: absolute;
+        right: 25px;
+        top: 105px
+    }
+    #footerMasterHmenu li {
+        padding: 0 5px 0 9px
+    }
+    .footer-footnote {
+        padding-top: 5px;
+        color: #999;
+        clear: both;
+        padding-right: 20px;
+        border-top: 1px solid #ccc;
+        font-size: 84.6%
+    }
+    #master_footer .footer-footnote p {
+        margin-bottom: 5px;
+        margin-left: 0
+    }
+    #master_footer #master_copyright-bg {
+        clear: both;
+        font-size: 84.6%
+    }
+    #master_ecoa-span {
+        margin-left: 5px
+    }
+    #master_copyright_ecoa {
+        background: url("masterSpriteV2.png") -128px -83px no-repeat scroll transparent;
+        height: 11px;
+        width: 15px;
+        margin-right: 6px;
+        display: inline-block
+    }
+    body.master_left-nav #master_left-nav {
+        float: left;
+        width: 160px
+    }
+    body.master_left-nav #master_main-content {
+        float: right;
+        width: 790px
+    }
+    body.master_left-nav #master_content-full .master_content-outer-container {
+        width: 762px
+    }
+    body.master_left-nav #master_content-left {
+        float: left;
+        width: 540px
+    }
+    body.master_left-nav #master_content-right {
+        float: right;
+        width: 240px
+    }
+    body.master_left-nav .master_content-outer-container {
+        margin: 0 14px 25px;
+        border-top: 3px solid #e2e2e2;
+        padding: 20px 0 0 0
+    }
+    body.master_full-width #master_content-left {
+        border-right: 1px solid #e2e2e2;
+        float: left;
+        width: 729px;
+        min-height: 325px
+    }
+    body.master_full-width #master_content-right {
+        float: right;
+        width: 240px
+    }
+    body.master_full-width #master_content-full .master_content-outer-container {
+        width: 939px;
+        min-height: 350px
+    }
+    body.master_left-nav #master_left-nav h2 {
+        border-bottom: 1px solid #d6d6d6;
+        color: #0a2945;
+        font-size: 161.6%;
+        margin-bottom: 10px;
+        padding: 20px 10px 11px 10px
+    }
+    body.master_left-nav #master_left-nav h2 a {
+        color: #0a2945
+    }
+    body.master_left-nav #master_left-nav h3 {
+        font-size: 100%;
+        padding: 18px 0 7px 18px
+    }
+    body.master_left-nav #master_left-nav ul {
+        margin: 0;
+        padding-bottom: 5px;
+        position: relative
+    }
+    body.master_left-nav #master_left-nav li a {
+        color: #444;
+        display: block;
+        padding: 10px 0;
+        padding-left: 20px
+    }
+    body.master_left-nav #master_left-nav li a:hover {
+        text-decoration: none
+    }
+    body.master_left-nav #master_left-nav li a.active {
+        color: #9c9c9c;
+        border-left: 4px solid #d13138;
+        padding-left: 16px
+    }
+    body.master_left-nav #master_left-nav .investing-list li a {
+        padding: 7px 0 7px 30px
+    }
+    body.master_left-nav #master_left-nav .investing-education-centre a,
+    body.master_left-nav #master_left-nav .statistics a {
+        font-weight: bold
+    }
+    body.master_left-nav #master_content-left h2,
+    body.master_left-nav #master_content-left h3 {
+        margin-bottom: .25em
+    }
+    body.master_left-nav #master_content-left p,
+    body.master_left-nav #master_content-left li {
+        line-height: 1.4;
+        margin-bottom: .5em
+    }
+    #master_content-header {
+        float: left;
+        padding: 0 10px 5px 14px;
+        width: 760px;
+        position: relative
+    }
+    #master_content-header h1 {
+        color: #0a2945;
+        font-size: 192.3%;
+        font-weight: 100;
+        float: left;
+        width: auto
+    }
+    #master_content-header .pagination {
+        float: right;
+        padding-top: 5px;
+        width: auto
+    }
+    .master_content-outer-container {
+        float: left;
+        padding: 0 10px 25px 20px
+    }
+    .master_extended .master_content-outer-container {
+        float: left;
+        padding: 0 0 25px 0
+    }
+    body.master_full-width #master_content-left .master_content-outer-container {
+        width: 689px
+    }
+    body.master_full-width.master_extended #master_content-full .master_content-outer-container {
+        width: 100%
+    }
+    body .master_standard-container {
+        margin: 10px 10px 10px 0
+    }
+    body .master_standard-container h3 {
+        margin-bottom: 10px
+    }
+    .master_content-left-subnav {
+        border-bottom: 1px solid #e2e2e2;
+        padding: 10px 20px;
+        font-size: 123.1%
+    }
+    .master_content-left-subnav a.active {
+        color: #0a2945
+    }
+    #master_content-right {
+        position: relative
+    }
+    .master_content-right-module {
+        border-bottom: 1px solid #d6d6d6;
+        padding: 10px
+    }
+    .master_content-right-submodule {
+        padding-bottom: 10px
+    }
+    .master_content-right-module h2 {
+        font-size: 100%;
+        margin-bottom: 5px
+    }
+    .master_content-right-module li {
+        margin-bottom: .5em
+    }
+    body.master_full-width #master_content-header {
+        width: 940px;
+        border-bottom: 1px solid #e2e2e2;
+        padding-left: 20px
+    }
+    #maineheader {
+        margin: 10px 0 20px 10px;
+        padding: 5px 10px 0 10px;
+        border: 1px solid #529532;
+        background: none repeat scroll 0 0 #efd
+    }
+    .master_content-outer-container p {
+        line-height: 1.5em;
+        font-size: 100%;
+        margin-bottom: 1em
+    }
+    body.master_invest .yui-panel .hd {
+        background-color: #206dd6
+    }
+    body.master_borrow .yui-panel .hd {
+        background-color: #5a9229
+    }
+    textarea.text {
+        width: 250px
+    }
+    input.text {
+        width: 250px
+    }
+    input.text.small {
+        width: 40px
+    }
+    input.text.medium {
+        width: 80px
+    }
+    input.text,
+    select,
+    textarea {
+        padding: 3px
+    }
+    form div.row {
+        clear: left;
+        padding-top: 8px;
+        padding-bottom: 4px;
+        height: 1%
+    }
+    form img {
+        vertical-align: middle
+    }
+    form div span.value {
+        float: left
+    }
+    form input.image {
+        margin-right: 10px
+    }
+    form div.toolbar {
+        padding: 6px 0;
+        text-align: right;
+        width: 22%;
+        float: right;
+        clear: right
+    }
+    form.standard {
+        font-size: 100%
+    }
+    form.standard label {
+        display: block;
+        float: left;
+        width: 160px;
+        padding-right: 10px;
+        text-align: right;
+        font-weight: bold
+    }
+    form.standard .label-after {
+        margin-left: 160px
+    }
+    form div.label-after label,
+    form.standard fieldset label {
+        float: none;
+        display: inline;
+        font-weight: normal
+    }
+    form.standard fieldset div {
+        margin: 0
+    }
+    form.standard small {
+        display: block;
+        margin-left: 165px;
+        font-style: italic
+    }
+    form.standard input.text,
+    form.standard select,
+    form.standard textarea {
+        margin-top: -5px
+    }
+    form.standard label.inline {
+        display: inline;
+        float: none;
+        font-weight: normal;
+        vertical-align: top
+    }
+    a.print {
+        background: url(/public/images/ba19046/library/buttons/printer.gif) no-repeat left center;
+        padding: 2px 0 2px 20px;
+        line-height: 16px;
+        cursor: pointer
+    }
+    #master_continueButton {
+        width: 119px;
+        height: 32px;
+        border: 0;
+        cursor: pointer;
+        color: #FFF;
+        font-weight: bold;
+        float: right;
+        font-size: 125%
+    }
+    .master_borrow #master_continueButton {
+        background: url(/public/images/ba19046/mainapp/buttons/btn-green-119x34.png) no-repeat 0 0
+    }
+    .master_invest #master_continueButton {
+        background: url(/public/images/ba19046/mainapp/investUI/investUIsprite02.png) no-repeat -560px -128px
+    }
+    .master_invest #master_continueButton:hover {
+        background: url(/public/images/ba19046/mainapp/investUI/investUIsprite02.png) no-repeat -560px -160px
+    }
+    #master_continueButton {
+        background: url(/public/images/ba19046/mainapp/investUI/investUIsprite02.png) no-repeat -560px -128px
+    }
+    #master_continueButton:hover {
+        background-position: -560px -160px
+    }
+    #master_nextButton {
+        width: 119px;
+        height: 49px;
+        border: 0;
+        cursor: pointer;
+        color: #FFF;
+        font-weight: bold;
+        float: right;
+        font-size: 150%
+    }
+    .master_borrow #master_nextButton {
+        background: url(/public/images/ba19046/mainapp/buttons/btn-green-119x49.png) no-repeat 0 0
+    }
+    .master_invest #master_nextButton {
+        background: url(/public/images/ba19046/mainapp/buttons/btn-blue-119x49.png) no-repeat 0 0
+    }
+    #master_nextButton {
+        background: url(/public/images/ba19046/mainapp/buttons/btn-grey-119x49.png) no-repeat 0 0
+    }
+    #master_nextButton:hover {
+        background-position: 0 -49px
+    }
+    #master_doneButton {
+        width: 145px;
+        height: 49px;
+        border: 0;
+        cursor: pointer;
+        color: #FFF;
+        font-weight: bold;
+        float: right
+    }
+    .master_borrow #master_doneButton {
+        background: url(/public/images/ba19046/mainapp/br/btn-green-145x49.png) no-repeat 0 0
+    }
+    .master_invest #master_doneButton {
+        background: url(/public/images/ba19046/mainapp/br/btn-blue-145x49.png) no-repeat 0 0
+    }
+    #master_doneButton {
+        background: url(/public/images/ba19046/mainapp/br/btn-grey-145x49.png) no-repeat 0 0
+    }
+    #master_doneButton:hover {
+        background-position: 0 -49px
+    }
+    #master_accountSubmit {
+        width: 75px;
+        height: 32px;
+        border: 0;
+        cursor: pointer;
+        color: #FFF;
+        font-weight: bold
+    }
+    .master_borrow #master_accountSubmit {
+        background: url(/public/images/ba19046/mainapp/account/accountBorrowersprite.png) no-repeat 6px -42px
+    }
+    .master_borrow #master_accountSubmit:hover {
+        background: url(/public/images/ba19046/mainapp/account/accountBorrowersprite.png) no-repeat 6px -74px
+    }
+    .master_invest #master_accountSubmit {
+        background: url(/public/images/ba19046/mainapp/account/portfolioManagementsprite.png) no-repeat -146px 0
+    }
+    .master_invest #master_accountSubmit:hover {
+        background: url(/public/images/ba19046/mainapp/account/portfolioManagementsprite.png) no-repeat -146px -32px
+    }
+    .master_borrow .focus_elemt {
+        border: solid 1px #70b433!important
+    }
+    .master_invest .focus_elemt {
+        border: solid 1px #206dd6!important
+    }
+    #master_accountSubmit {
+        background: url(/public/images/ba19046/mainapp/buttons/btn-grey-70x64.png) no-repeat 5px 2px
+    }
+    #master_accountSubmit:hover {
+        background-position: 5px -30px
+    }
+    #withdraw_fundsSubmit {
+        width: 141px;
+        height: 32px;
+        border: 0;
+        cursor: pointer;
+        color: #FFF;
+        font-weight: bold;
+        background: url(/public/images/ba19046/mainapp/account/portfolioManagementsprite.png) no-repeat 0 0
+    }
+    #withdraw_fundsSubmit:hover {
+        background: url(/public/images/ba19046/mainapp/account/portfolioManagementsprite.png) no-repeat 0 -32px
+    }
+    #add_fundsSubmit {
+        width: 100px;
+        height: 32px;
+        border: 0;
+        cursor: pointer;
+        color: #FFF;
+        font-weight: bold;
+        background: url(/public/images/ba19046/mainapp/account/portfolioManagementsprite.png) no-repeat -301px 0
+    }
+    #add_fundsSubmit:hover {
+        background: url(/public/images/ba19046/mainapp/account/portfolioManagementsprite.png) no-repeat -301px -32px
+    }
+    #master_inviteButton {
+        display: block;
+        margin: 0 auto;
+        color: #fff;
+        font-weight: bold;
+        font-size: 100%;
+        text-align: center;
+        border: 0;
+        cursor: pointer;
+        background: url("/public/images/ba19046/mainapp/buttons/btn-blue-129x34.png") no-repeat;
+        height: 32px;
+        width: 129px;
+        padding-bottom: 4px
+    }
+    .master_borrow #master_inviteButton {
+        background: url("/public/images/ba19046/mainapp/buttons/btn-green-129x34.png") no-repeat
+    }
+    #master_inviteButton:hover {
+        background-position: 0 -31px
+    }
+    dl.legend dt {
+        float: left;
+        margin-right: 5px
+    }
+    ul,
+    ol {
+        margin-left: 2em
+    }
+    ul,
+    ol,
+    dl {
+        line-height: 1.5em;
+        margin-bottom: 1em
+    }
+    .master_message-wrapper {
+        clear: both;
+        font-size: 108%;
+        padding: 5px 20px 5px 15px
+    }
+    .master_top-message-wrapper {
+        clear: both;
+        font-size: 100%;
+        margin-bottom: -34px;
+        margin-left: 4px
+    }
+    .master_top-message {
+        background: url("masterSpriteV2.png") -214px -352px #fdf5d1 no-repeat scroll;
+        border-width: 1px;
+        border-style: solid;
+        padding: 5px 10px 5px 32px;
+        margin-bottom: 5px;
+        border-color: #fed992
+    }
+    .master_message {
+        background-position: -977px -22px;
+        background-repeat: no-repeat;
+        border-width: 1px;
+        border-style: solid;
+        padding: 10px 10px 10px 32px;
+        margin-bottom: 5px
+    }
+    .master_error {
+        background: url("masterSpriteV2.png") -214px -575px no-repeat #fdeade;
+        background-color: #fdeade;
+        border-color: #f7c1b0
+    }
+    .master_alert {
+        background: url("masterSpriteV2.png") -214px -352px no-repeat #fdf5d1;
+        background-color: #fdf5d1;
+        border-color: #fed992
+    }
+    .active.master_error {
+        background: url("masterSpriteV2.png") -214px -575px no-repeat #fdeade
+    }
+    .active.master_alert {
+        background: url(/public/images/ba19046/library/masterSprite.png) -214px -352px no-repeat #fdf5d1
+    }
+    .messages {
+        border-width: 1px;
+        border-style: solid;
+        padding: 10px 10px 10px 32px;
+        margin-bottom: 5px;
+        background-color: #fdf5d1;
+        border-color: #fed992
+    }
+    .master_fancy-select {
+        background: url(/public/images/ba19046/library/master_bg-fancy-select.png) 0 0 no-repeat;
+        text-align: left;
+        margin-top: 40px;
+        width: 250px;
+        height: 30px;
+        padding: 6px 42px 11px 10px;
+        position: relative
+    }
+    .master_fancy-select a,
+    #home-borrower .master_fancy-select a {
+        color: #333
+    }
+    .master_fancy-select p {
+        width: 150px;
+        overflow: hidden;
+        white-space: nowrap;
+        margin-bottom: 0
+    }
+    .master_fancy-select.shown {
+        z-index: 3
+    }
+    .master_fancy-select ul {
+        position: absolute;
+        top: 29px;
+        left: -9999px;
+        background: url(/public/images/ba19046/library/bg-select-list-3.png) bottom left;
+        padding: 5px 0;
+        width: 202px
+    }
+    .master_fancy-select li a {
+        display: block;
+        padding: 5px 10px;
+        width: 180px
+    }
+    .master_fancy-select li a:hover {
+        background: #4c88d5;
+        color: #fff;
+        text-decoration: none
+    }
+    .master_fancy-select.shown ul {
+        left: 0
+    }
+    #master_section-tagline h2 {
+        color: #5b6b72;
+        font-size: 182%;
+        font-weight: normal;
+        padding: 0 0 20px 25px
+    }
+    .master_sub-module-menu {
+        height: 30px;
+        float: left;
+        *float: none;
+        width: 100%;
+        margin-bottom: 5px;
+        background: url("/public/images/ba19046/library/master_submenuShadow.png") repeat-x scroll 0 120% #f7f7f7
+    }
+    .master_sub-module-menu ul {
+        line-height: 1.231;
+        margin-bottom: 0;
+        margin-left: 12px
+    }
+    .master_sub-module-menu ul li {
+        width: auto;
+        float: left;
+        padding: 6px 0 0 0
+    }
+    .master_sub-module-menu ul li a {
+        padding: 0 8px 0 8px;
+        color: #206dd6
+    }
+    .master_sub-module-menu ul li a.active {
+        font-weight: bold
+    }
+    .master_sub-module-menu ul li span.separator {
+        color: #d6d6d6
+    }
+    .master_side_message_wrapper {
+        display: block;
+        float: right;
+        margin-right: 10px;
+        padding-top: 8px;
+        text-align: right
+    }
+    div.yui-dt table {
+        border-top: 1px solid #e2e2e2;
+        font-size: 100%;
+        width: 100%
+    }
+    div.yui-dt td,
+    div.yui-dt th {
+        border-bottom: 1px solid #e2e2e2;
+        padding: 0;
+        font-weight: bold
+    }
+    div.yui-dt th {
+        font-size: 93%;
+        border-right-color: #f7f7f7
+    }
+    div.yui-dt a.sorted {
+        background: url(/public/images/ba19046/mainapp/investUI/arw-down-grn.png) 100% 50% no-repeat;
+        color: #333;
+        padding-right: 15px
+    }
+    div.yui-dt th.numeric {
+        text-align: left
+    }
+    div.yui-dt tr {
+        height: 37px
+    }
+    div.yui-dt tr.yui-dt-odd,
+    div.yui-dt thead th {
+        background: #f7f7f7
+    }
+    .yui-skin-sam .yui-dt-liner {
+        padding: 3px;
+        float: left
+    }
+    tr.yui-dt-first {
+        background: #f7f7f7
+    }
+    div.yui-dt th.yui-dt-asc,
+    div.yui-dt th.yui-dt-desc {
+        background: #f7f7f7
+    }
+    div.yui-dt th.yui-dt-asc a,
+    div.yui-dt th.yui-dt-desc a {
+        color: black
+    }
+    div.yui-dt tr.yui-dt-even td.yui-dt-asc,
+    div.yui-dt tr.yui-dt-even td.yui-dt-desc {
+        background: #fff
+    }
+    div.yui-dt tr.yui-dt-odd td.yui-dt-asc,
+    div.yui-dt tr.yui-dt-odd td.yui-dt-desc {
+        background: #f7f7f7
+    }
+    div.yui-dt {
+        clear: both
+    }
+    span.AA {
+        background: url(/public/images/ba19046/mainapp/account/portfolioManagementsprite.png) transparent 0 -71px no-repeat
+    }
+    span.A {
+        background: url(/public/images/ba19046/mainapp/account/portfolioManagementsprite.png) transparent -59px -71px no-repeat
+    }
+    span.B {
+        background: url(/public/images/ba19046/mainapp/account/portfolioManagementsprite.png) transparent -116px -71px no-repeat
+    }
+    span.C {
+        background: url(/public/images/ba19046/mainapp/account/portfolioManagementsprite.png) transparent -174px -71px no-repeat
+    }
+    span.D {
+        background: url(/public/images/ba19046/mainapp/account/portfolioManagementsprite.png) transparent -404px -71px no-repeat
+    }
+    span.E {
+        background: url(/public/images/ba19046/mainapp/account/portfolioManagementsprite.png) transparent -231px -71px no-repeat
+    }
+    span.F {
+        background: url(/public/images/ba19046/mainapp/account/portfolioManagementsprite.png) transparent -289px -71px no-repeat
+    }
+    span.G {
+        background: url(/public/images/ba19046/mainapp/account/portfolioManagementsprite.png) transparent -351px -71px no-repeat
+    }
+    .legend span.term60,
+    .legend span.secureType,
+    .legend span.AA {
+        background: url(/public/images/ba19046/mainapp/account/lenderAccountDetailsprite.png) transparent 0 0 no-repeat
+    }
+    .legend span.personalType,
+    .legend span.term36,
+    .legend span.A {
+        background: url(/public/images/ba19046/mainapp/account/lenderAccountDetailsprite.png) transparent -35px 0 no-repeat
+    }
+    .legend span.B {
+        background: url(/public/images/ba19046/mainapp/account/lenderAccountDetailsprite.png) transparent -71px 0 no-repeat
+    }
+    .legend span.C {
+        background: url(/public/images/ba19046/mainapp/account/lenderAccountDetailsprite.png) transparent -105px 0 no-repeat
+    }
+    .legend span.D {
+        background: url(/public/images/ba19046/mainapp/account/lenderAccountDetailsprite.png) transparent -137px 0 no-repeat
+    }
+    .legend span.E {
+        background: url(/public/images/ba19046/mainapp/account/lenderAccountDetailsprite.png) transparent -171px 0 no-repeat
+    }
+    .legend span.F {
+        background: url(/public/images/ba19046/mainapp/account/lenderAccountDetailsprite.png) transparent -204px 0 no-repeat
+    }
+    .legend span.G {
+        background: url(/public/images/ba19046/mainapp/account/lenderAccountDetailsprite.png) transparent -237px 0 no-repeat
+    }
+    span.gradeText,
+    span.gradeText2L,
+    span.gradeTextWide,
+    span.gradeTextWideAA {
+        color: white;
+        display: block;
+        float: left;
+        font-weight: bold;
+        height: 21px;
+        padding-left: 6px;
+        padding-top: 3px;
+        width: 21px
+    }
+    .legend span.term36,
+    .legend span.term60 {
+        padding-left: 4px
+    }
+    .module #term li span.term36 {
+        background: url("/public/images/ba19046/mainapp/investUI/investUIsprite03.png") no-repeat -378px -322px transparent
+    }
+    .module #term li span.term60 {
+        background: url(/public/images/ba19046/mainapp/investUI/investUIsprite03.png) no-repeat -437px -322px transparent
+    }
+    span.gradeNumberAA {
+        color: #213d56;
+        margin-left: 5px;
+        *margin-left: 4px
+    }
+    span.gradeNumberA {
+        color: #6380ad;
+        margin-left: 9px;
+        *margin-left: 8px
+    }
+    span.gradeNumberB {
+        color: #6cc2d7;
+        margin-left: 9px;
+        *margin-left: 8px
+    }
+    span.gradeNumberC {
+        color: #6cae32;
+        margin-left: 9px;
+        *margin-left: 8px
+    }
+    span.gradeNumberD {
+        color: #89d917;
+        margin-left: 9px;
+        *margin-left: 8px
+    }
+    span.gradeNumberE {
+        color: #f7e520;
+        margin-left: 9px;
+        *margin-left: 8px
+    }
+    span.gradeNumberF {
+        color: #fdc328;
+        margin-left: 9px;
+        *margin-left: 8px
+    }
+    span.gradeNumberG {
+        color: #ff9807;
+        margin-left: 9px;
+        *margin-left: 8px
+    }
+    span.gradeText2L {
+        padding-left: 3px
+    }
+    span.gradeTextWide {
+        padding-left: 6px;
+        width: 29px;
+        margin-right: 5px
+    }
+    span.gradeTextWideAA {
+        padding-left: 1px;
+        width: 34px
+    }
+    .legend span.gradeText2L {
+        padding-left: 1px;
+        margin-right: 9px
+    }
+    .object-details {
+        width: 100%;
+        overflow: hidden;
+        margin-bottom: 20px;
+        clear: both;
+        height: 1%
+    }
+    .object-details .module {
+        float: left;
+        display: inline;
+        width: 32%;
+        margin: 0 0 0 8px;
+        border: 1px solid #d6d6d6;
+        height: 262px
+    }
+    .object-details h4 {
+        font-size: 115%;
+        padding: 11px 0 0 15px
+    }
+    .object-details .pieChart {
+        float: left;
+        width: 150px;
+        height: 198px
+    }
+    .object-details img.pie {
+        float: left
+    }
+    .object-details ol.legend {
+        list-style-type: none;
+        float: right;
+        width: 90px;
+        margin-bottom: 0
+    }
+    .object-details ol.legend li {
+        line-height: 1.2em;
+        float: right;
+        height: 24px;
+        padding: 1px 0;
+        width: 90px
+    }
+    .object-details .module table tr.total {
+        border-top: 1px solid #e6e6e5;
+        border-bottom: 1px solid #e6e6e5;
+        background-color: #f7f7f7
+    }
+    .object-details .module table {
+        width: 100%;
+        font-size: 85%
+    }
+    .object-details .module tr.textHeight {
+        height: 30px
+    }
+    .object-details .module tr.textHeightLastItem {
+        height: 35px
+    }
+    .object-details th,
+    .object-details td,
+    .plain-table td {
+        height: 25px;
+        padding: 4px 4px 4px 15px;
+        font-size: 105%
+    }
+    .object-details th,
+    .plain-table td.time {
+        color: #5d5d5d;
+        font-weight: normal
+    }
+    .object-details td {
+        text-align: right;
+        white-space: nowrap;
+        padding-right: 20px;
+        font-weight: bold
+    }
+    .object-details tr.sub-total th {
+        text-align: left;
+        padding: 0 0 0 50px
+    }
+    .object-details tr.sub-total td {
+        text-align: right
+    }
+    .module ol li p {
+        color: #fff;
+        float: left;
+        font-size: 95%;
+        font-weight: bold;
+        margin-left: -20px;
+        padding: 4px 0 0 1px
+    }
+    .annotation {
+        color: #999;
+        clear: both;
+        margin-left: 5px
+    }
+    table.plain-table {
+        border: 0 none;
+        clear: both;
+        font-size: 1em;
+        margin-top: 10px;
+        width: 100%
+    }
+    table.standard-table {
+        border-top: 1px solid #e2e2e2;
+        font-size: 100%;
+        width: 100%;
+        clear: both;
+        margin: 10px 0 0 0;
+        float: left
+    }
+    table.standard-table td,
+    table.standard-table th {
+        border-bottom: 1px solid #e2e2e2;
+        padding: 5px 5px;
+        *padding: 0 5px;
+        font-weight: bold
+    }
+    table.standard-table th {
+        font-size: 93%;
+        border-right-color: #f7f7f7
+    }
+    table.standard-table a.sorted {
+        background: url(/public/images/ba19046/mainapp/investUI/arw-down-grn.png) 100% 50% no-repeat;
+        color: #333;
+        padding-right: 15px
+    }
+    table.standard-table th.numeric {
+        text-align: left
+    }
+    table.standard-table tr {
+        height: 30px
+    }
+    table.standard-table tr.odd,
+    table.standard-table th {
+        background: #f7f7f7
+    }
+    .pagination {
+        float: right;
+        margin: 20px 0 15px;
+        width: auto;
+        padding-right: 10px;
+        font-size: 88%
+    }
+    .pagination p {
+        text-align: right;
+        margin-bottom: 0;
+        clear: both;
+        width: auto
+    }
+    .pagination select {
+        border: 1px solid #d6d6d6
+    }
+    .yui-pg-page {
+        background-color: #fff;
+        border: 1px solid #cbcbcb;
+        padding: 3px 6px;
+        text-decoration: none;
+        margin-left: 1px;
+        margin-right: 1px
+    }
+    span.yui-pg-current-page {
+        border: medium none;
+        font-weight: bold
+    }
+    .yui-skin-sam .yui-pg-first,
+    .yui-skin-sam .yui-pg-previous,
+    .yui-skin-sam .yui-pg-next,
+    .yui-skin-sam .yui-pg-last,
+    .yui-skin-sam .yui-pg-current,
+    .yui-skin-sam .yui-pg-pages,
+    .yui-skin-sam .yui-pg-page {
+        display: inline-block;
+        padding: 3px 6px
+    }
+    #master_close-window-wrapper {
+        float: right
+    }
+    .underline {
+        text-decoration: underline
+    }
+    .listStyleUpperAlpha {
+        list-style-type: upper-alpha
+    }
+    #promissory {
+        margin-right: 20px;
+        margin-top: 10px
+    }
+    .loan-agreement p {
+        padding-right: 20px
+    }
+    .loan-agreement .master_content-outer-container {
+        padding-top: 10px
+    }
+    #master_content a#displayTypePie,
+    #master_content #gradeTypes span.displayTypePieSeparator {
+        visibility: hidden
+    }
+    #master_content span.gradeText2L,
+    #master_content span.gradeText2LPercentage {
+        display: none
+    }
+    #master_basicContent {
+        padding: 20px 20px 0 0
+    }
+    body .mask {
+        -moz-opacity: .7;
+        opacity: .70;
+        filter: alpha(opacity=70);
+        background-color: black
+    }
+    #master_mobile_utilities {
+        display: none
+    }
+    .master_mobile_only {
+        display: none
+    }
+    .master_sb_only {
+        display: none
+    }
+    body.master_invest .lightbox {
+        bacground-color: #d8e2e7;
+        background-image: linear-gradient(bottom, #b0c5ce 0, #fff 60%);
+        background-image: -o-linear-gradient(bottom, #b0c5ce 0, #fff 60%);
+        background-image: -moz-linear-gradient(bottom, #b0c5ce 0, #fff 60%);
+        background-image: -webkit-linear-gradient(bottom, #b0c5ce 0, #fff 60%);
+        background-image: -ms-linear-gradient(bottom, #b0c5ce 0, #fff 60%);
+        background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.0, #b0c5ce), color-stop(0.60, white));
+        border: 1px solid #b0c5ce
+    }
+    body.master_borrow .lightbox {
+        background-color: #f2fbea;
+        background-image: linear-gradient(bottom, #e5f7d5 0, #fff 50%);
+        background-image: -o-linear-gradient(bottom, #e5f7d5 0, #fff 50%);
+        background-image: -moz-linear-gradient(bottom, #e5f7d5 0, #fff 50%);
+        background-image: -webkit-linear-gradient(bottom, #e5f7d5 0, #fff 50%);
+        background-image: -ms-linear-gradient(bottom, #e5f7d5 0, #fff 50%);
+        background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.0, #e5f7d5), color-stop(1, #fff));
+        border: 1px solid #b0c5ce
+    }
+    body .lightbox .hd {
+        font-size: 160%;
+        font-weight: bold;
+        background: transparent;
+        border: 0;
+        line-height: 34px;
+        margin-left: 16px;
+        padding: 10px 0 0 0;
+        position: absolute;
+        height: 30px;
+        color: #0a2945;
+        position: relative
+    }
+    .lightbox .ft .button-group button {
+        font-size: 105%;
+        font-weight: bold;
+        font-color: #fff
+    }
+    .lightbox div.bd {
+        font-size: 105%;
+        padding: 10px 15px
+    }
+    .lightbox .bd input {
+        background: linear-gradient(center top, white, #f2f2f2) repeat scroll 0 0 transparent;
+        background: -moz-linear-gradient(center top, white, #f2f2f2) repeat scroll 0 0 transparent;
+        background: -webkit-linear-gradient(center top, white, #f2f2f2) repeat scroll 0 0 transparent;
+        background: -ms-linear-gradient(center top, white, #f2f2f2) repeat scroll 0 0 transparent;
+        border: 1px solid #717171;
+        border-radius: 7px 7px 7px 7px;
+        box-shadow: 1px 1px 5px #888 inset;
+        height: 32px;
+        padding-left: 10px
+    }
+    .lightbox h3 {
+        color: #0d2941;
+        font-size: 220%;
+        border-bottom: 1px solid #afc3ce;
+        padding-bottom: 5px;
+        font-weight: normal
+    }
+    .lightbox h4 {
+        color: #0d2941;
+        font-size: 135.5%;
+        margin-top: 5px
+    }
+    body .lightbox .container-close {
+        background: url(/public/images/ba19046/mainapp/investUI/x-close.png) transparent 0 0 no-repeat;
+        width: 17px;
+        height: 16px;
+        margin: 0
+    }
+    .css_btn_class {
+        font-size: 13px;
+        font-family: Arial;
+        font-weight: bold;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        border: 1px solid #d5d5d5;
+        padding: 4px 10px;
+        text-decoration: none;
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #fff), color-stop(100%, #f0f0f0));
+        background: -moz-linear-gradient(center top, #fff 5%, #f0f0f0 100%);
+        background: -ms-linear-gradient(top, #fff 5%, #f0f0f0 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f0f0f0');
+        background-color: #fff;
+        color: #707884;
+        display: inline-block;
+        text-shadow: 1px 1px #fff;
+        -webkit-box-shadow: 1px 1px 2px 0 #d1d1d1;
+        -moz-box-shadow: 1px 1px 2px 0 #d1d1d1;
+        box-shadow: 1px 1px 2px 0 #d1d1d1;
+        margin-right: 7px
+    }
+    .css_btn_class:hover {
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #f0f0f0), color-stop(100%, #fff));
+        background: -moz-linear-gradient(center top, #f0f0f0 5%, #fff 100%);
+        background: -ms-linear-gradient(top, #f0f0f0 5%, #fff 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#f0f0f0', endColorstr='#ffffff');
+        background-color: #f0f0f0;
+        text-decoration: none
+    }
+    .css_btn_class:active {
+        position: relative;
+        top: 1px
+    }
+    #master_utilities a#master_sign-in-link {
+        font-size: 13px;
+        font-family: Arial;
+        font-weight: normal;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        border: 1px solid #adadad;
+        height: 22px;
+        line-height: 21px;
+        padding: 0 10px;
+        text-decoration: none;
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #fff), color-stop(100%, #dadada));
+        background: -moz-linear-gradient(center top, #fff 5%, #dadada 100%);
+        background: -ms-linear-gradient(top, #fff 5%, #dadada 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dadada');
+        background-color: #fff;
+        color: #707884;
+        display: inline-block;
+        text-shadow: 2px 1px #fff;
+        -webkit-box-shadow: 1px 1px -1px 0 #d1d1d1;
+        -moz-box-shadow: 1px 1px -1px 0 #d1d1d1;
+        box-shadow: 1px 1px 1px -1px #d1d1d1;
+        margin-right: 2px
+    }
+    .master_invite_wrapper .dollar-bonus-sign {
+        position: absolute;
+        top: 17px;
+        left: 40px;
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold
+    }
+    .master_invite_link {
+        right: 20px;
+        margin-top: 17px;
+        position: absolute
+    }
+    .master_invite_wrapper {
+        float: right;
+        height: 40px;
+        background: url(/public/images/ba19046/utilities/comp/icons-sprite.png) -79px 0 no-repeat;
+        padding-right: 190px;
+        position: relative;
+        right: -3px;
+        bottom: -7px
+    }
+    #glossaryPopup {
+        float: right;
+        margin-right: 15px;
+        margin-top: 7px;
+        color: #231f20
+    }
+    #invite-trngl {
+        position: static
+    }
+    div[ng-include="templateUrl"] {
+        display: none!important
+    }
+    .red-dot {
+        background: url(""masterSpriteV2.png"") no-repeat -230px -138px;
+        padding-left: 15px
+    }
+    .superscript {
+        font-size: 76.9%;
+        vertical-align: super;
+        display: inline
+    }

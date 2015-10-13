@@ -1,0 +1,12 @@
+.lc - msg - container {
+    position: absolute;border: 10 px solid# f6bfba;z - index: 5;padding: 10 px 10 px 10 px 30 px;font: 13 px / 1.231 helvetica,
+    arial,
+    clean,
+    sans - serif;background: url(masterSpriteV2.png) - 214 px - 575 px no - repeat# fdeade;display: none;margin - left: 10 px;box - shadow: 1 px 2 px 4 px #888880;-moz-box-shadow:1px 2px 4px # 888880; - webkit - box - shadow: 1 px 2 px 4 px #888880;-ms-filter:"progid:DXImageTransform.Microsoft.Shadow(Strength= 5,
+    Direction = 140,
+    Color = '#888880')
+"}
+
+.lc-msg-container:after{position:absolute;display:block;content:"
+";border-color:#fdeade transparent transparent #fdeade;border-style:solid;border-width:6px;height:0;width:0;position:absolute;bottom:-12px;left:0}*:first-child+html .invitation-inner form{margin-top:2px}.applyForALoanPreq{margin-left:180px}#bubbleGlobalMessage,#bubbleGlobalMblMessage{margin-top:-64px;width:314px;z-index:0}#bubblePurposeMessage,#bubblePurposeMblMessage{margin-top:-54px;min-width:183px;z-index:0}#bubbleCreditMessage,#bubbleCreditMblMessage{margin-top:-54px;min-width:188px;z-index:0}#bubbleAmountMessage,#bubbleAmountMblMessage{margin-top:-54px;width:314px;z-index:0}.preq-form{position:relative}.red-bubble-error .lc-msg-container{position:absolute;padding:10px;background:#d82628;color:#fff;border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px;display:none;opacity:.9;border:0;box-shadow:none}.red-bubble-error .lc-msg-container:after{content:"
+";display:block;width:16px;height:7px;position:absolute;bottom:-7px;right:110px;left:auto;background:url(" / public / images / ba19046 / content / marketing / home / homeSprite - public.png ") -988px -325px no-repeat;opacity:.9;border:0}.red-bubble-error #bubbleGlobalMessage.lc-msg-container{width:220px;margin-top:0;bottom:236px;margin-left:0}.red-bubble-error #bubbleAmountMessage.lc-msg-container{width:220px;left:0;margin-top:0;bottom:234px;margin-left:0}.red-bubble-error #bubblePurposeMessage.lc-msg-container{width:220px;left:0;margin-top:0;bottom:40px;margin-left:0}.red-bubble-error #bubbleCreditMessage.lc-msg-container{width:220px;left:0;margin-top:0;margin-left:0;bottom:40px}
